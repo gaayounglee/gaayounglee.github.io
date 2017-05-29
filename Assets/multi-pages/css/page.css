@@ -1,7 +1,7 @@
 body{
     margin-left: auto;
     margin-right: auto;
-    width: 1080;
+    width: 1080px;
     height: 100vh; /* view port height */
 
 }
@@ -20,12 +20,20 @@ a{
 .active-page{
     padding-left: 5px;
     /*border-left: 두께(width) 색상(color) 형태(style); */
-    border-left:3px lightcoral solid ;
+    border-left:3px lightcoral solid;
 }
 
 /* 각 페이지마다 배경이미지 변경<- id  속성으로 구분 */
 
-# travel {
+
+
+
+a:hover{
+    color: #3981eb;
+}
+
+/* 각 페이지마다 배경이미지 변경 <- id 속성으로 구분 */
+#travel {
 
 /* background : 색상 (color) 이미지 경로 (url()) 반복설정 (repeat) 위치(position) 고정설정 (attachment); */
 /* 기본값 */
@@ -39,15 +47,9 @@ background-size: contain;
     background: url("../images/spring.jpg") no-repeat;
     background-size: contain;
 }
+
 #summer{
     background: url("../images/summer.jpg") no-repeat;
     background-size: contain;
 }
-
-a:hover{
-    color: #3981eb;
-}
-
-/* 각 페이지마다 배경이미지 변경 <- id 속성으로 구분 */
-
 
