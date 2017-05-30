@@ -1,0 +1,25 @@
+/* 가이드 라인 화면에 보여준다 */
+
+body{
+    margin: 0;
+    background: url("../typography/assets/leading-pattern-21.png");
+    /* 본문 디자인(공통 속성 상속) */
+    color: #838383;
+    font: 300 87.5%/1.5 'Nanum Barun Gothic';
+
+}
+
+/* 단락디자인 */
+
+p{
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+
+
+.container {
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
