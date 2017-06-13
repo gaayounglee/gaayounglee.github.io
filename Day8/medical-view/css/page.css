@@ -13,10 +13,16 @@ body {
 }
 /* 기준선 가이드 (Baseline Guide) */
 .guide {
-  height: 100vh;
+  height: 300vh;
   background: linear-gradient(180deg, transparent 2rem, hsla(246.9, 60.2%, 63.4%, 0.6) 2rem);
   background-size: 0.1rem 2.1rem;
 }
+
+img{
+    vertical-align: middle;
+}
+
+
 .toggle-guide {
   cursor: pointer;
   position: fixed;
@@ -42,26 +48,37 @@ p, h1, h3, h5, h6 {
   margin-top: 0;
   margin-bottom: 2.1rem;
 }
+/*단락 디자인*/
 p {
   letter-spacing: -0.02em;
 }
 
+/*제목 디자인*/
+h1, h3, h5, h6{
+    letter-spacing: -0.05em;
+}
+
 h1, h3 {
     font-weight: 300;
+    color: #333741;
 }
 
 h5, h6 {
     font-weight: 400; /*normal*/
     line-height: 2.1rem;
-    letter-spacing: -0.05em;
+
 }
 
 h1{
+    font-size: 5.46rem;
+    line-height: 6.3rem;
 
 }
 
 h3{
-
+    font-size: 3.17rem;
+    line-height: 4.2rem;
+   
 }
 
 h5 {
@@ -76,12 +93,98 @@ h6 {
     color: #47494e;
 }
 
-ul {}
-li {}
-a:link {}
-a:visited {}
-a:hover {}
+/*목록 디자인*/
+
+.reset-list {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 2.1rem;
+    padding-left: 0;
+
+}
+
+li {
+
+}
+
+/*정의 목록*/
+
+di{
+
+}
+dt{
+
+}
+dd{
+
+}
+
+/*하이퍼링크 디자인*/
+
+a:link {
+    color:#227e92;
+    text-decoration: none;
+
+
+}
+
+a:hover {
+    color: #41b4cd;
+
+    
+}
 a:focus {}
 a:active {}
 
 /*레이아웃*/
+.container{
+    width: 82rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8.4rem;
+
+    
+}
+header{
+    text-align: center;
+    
+}
+
+main{
+    margin-top:4.2rem;
+
+}
+
+/*.section-important{}*/
+
+.order-teeth-manage{
+    margin-top: 4.2rem;
+
+}
+
+.order-teeth-manage{
+    margin-top: 4.2rem;
+    counter-reset: order-teeth-manage;
+}
+.order-teeth-manage li::before{
+    content: counter(order-teeth-manage)'.';
+    counter-increment: order-teeth-manage;
+    margin-right: 5px;
+}
+
+.order-title{
+    display: inline-block;
+    margin-bottom: 2.1rem;
+    font-weight: 700;
+    color:#787f94;
+    letter-spacing: -0.01em;
+
+}
+
+.section-QnA{
+
+}
+
+footer{
+
+}
