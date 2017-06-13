@@ -1,0 +1,87 @@
+/*초기화*/
+html {
+  overflow-y: scroll;
+  font-size: 10px;
+  background: #fff;
+}
+body {
+  margin: 0;
+  font-size:  1.4rem;
+  font-family: "Spoqa Han Sans", Dotum, Sans-Serif;
+  line-height: 1.5;
+  color: #333741;
+}
+/* 기준선 가이드 (Baseline Guide) */
+.guide {
+  height: 100vh;
+  background: linear-gradient(180deg, transparent 2rem, hsla(246.9, 60.2%, 63.4%, 0.6) 2rem);
+  background-size: 0.1rem 2.1rem;
+}
+.toggle-guide {
+  cursor: pointer;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  border: none;
+  padding: 1em;
+  background: hsla(246.9, 60.2%, 63.4%, 0.65);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all 0.45s ease-in-out;
+  box-shadow: 0 1px 4px hsla(0, 0%, 40%, 0.35);
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+}
+.toggle-guide:hover {
+  background: hsla(246.9, 60.2%, 63.4%, 0.95);
+}
+
+/*타이포그래피*/
+p, h1, h3, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 2.1rem;
+}
+p {
+  letter-spacing: -0.02em;
+}
+
+h1, h3 {
+    font-weight: 300;
+}
+
+h5, h6 {
+    font-weight: 400; /*normal*/
+    line-height: 2.1rem;
+    letter-spacing: -0.05em;
+}
+
+h1{
+
+}
+
+h3{
+
+}
+
+h5 {
+   font-size: 1.838rem;
+   color: #787f94;
+   
+}
+
+h6 {
+    font-size: 1.56rem;
+    line-height: 2.1rem;
+    color: #47494e;
+}
+
+ul {}
+li {}
+a:link {}
+a:visited {}
+a:hover {}
+a:focus {}
+a:active {}
+
+/*레이아웃*/
