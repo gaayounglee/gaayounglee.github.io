@@ -32,7 +32,7 @@ body{
     z-index: 100; 
     border-radius: 8px;
     /*box-shadow: x y blur color*/
-    box-shadow: 0 3px 6px rgba(0,0,0,0.45);
+    box-shadow: 0 0px 20px rgba(0,0,0,0.45);
 
     /*멀티 새도우 */
     /*box-shadow:
@@ -60,6 +60,7 @@ Mouse Enter
     top: -5px;
     right: -25px;
 }
+.album.open .album-item.sleeve,
 .album:hover .album-item.disk{
     top: -5px;
     right: -80px;
@@ -67,14 +68,35 @@ Mouse Enter
 }
 /*앨범이 open 상태에서 마우스가 올라가면 (:hover)*/
 
+.album.open:hover .album-item.disk{
+    animation: infinite-rotate-disk 10s infinite;
+}
 
-
-/*사용자가 애니메이션을 정의
-키프레임 등록해서 각 프레임마다 스타일을 설정*/
-/* @keyframes 애니메이션 이름 {
-    키프레임
-    시작 from - 끝 to
-    from{}
-    to{}
-    시작 0% - 끝 100%
-}*/
+/* 사용자 애니메이션을 정의 */
+/* 키프레임 등록해서 각 프레임마다 스타일을 설정 */
+@keyframes infinite-rotate-disk {
+  /* 키 프레임 */
+  /* 시작(from) - 끝(to) */
+  from {
+    transform: rotate(720deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+  /* 시작(0%) - 끝(100%) */
+  /*0% {
+    transform: rotate(720deg);
+  }
+  25% {
+    transform: rotate(720deg);
+  }
+  50% {
+    transform: rotate(720deg);
+  }
+  75% {
+    transform: rotate(720deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }*/
+}
