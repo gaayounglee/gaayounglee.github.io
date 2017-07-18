@@ -1,0 +1,41 @@
+body {
+  font: 16px/1.5 Lato, Sans-Serif;
+}
+
+.symbol {
+  position: relative;
+  top: 16px;
+}
+
+.magazine-headline {
+  width: 470px;
+  margin-top: 131px;
+  margin-bottom: 54;
+  font-weight: 100;
+  font-size: 120px;
+  color:#454545;
+  letter-spacing: -0.005em;
+  line-height: 0.816666667;
+}
+
+.main p{
+    width: 530px;
+    margin-top: 0;
+    margin-bottom: 24px;
+    color:#969595;
+}
+
+.lipstick{
+    position: relative;
+    top: -13px;
+    left: -123px;
+}
+
+.fixed-pos {
+  position: fixed;
+  z-index: 1000;
+}
+.is-right-bottom {
+  right: 0;
+  bottom: 0;
+}

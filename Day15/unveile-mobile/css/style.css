@@ -1,0 +1,63 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    margin: 0;
+    font: 100%/1.5 Dosis,Sans-Serif;
+    background: #fff;
+}
+
+h1,h2,h3,h4,h5{
+    margin: 0;
+}
+
+.done-page{
+    padding-top: 84px;
+    padding-bottom: 19px;
+    text-align: center;
+    padding-left: 13.3333%;
+    padding-right: 13.3333%;
+}
+
+.is-done{
+    margin-bottom: 8.2rem;
+}
+.title{
+    padding-top:16px;
+    padding-bottom: 76px;
+    font-weight: 300;
+    font-size: 5rem;
+    line-height: 1.2;
+    color:#7d51ff;
+}
+
+.sub-title{
+    font-weight: 700;
+    font-size: 1.4rem;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    color:#454553;
+}
+
+.link{
+    display: block;
+    text-decoration: none;
+    padding: 1em 0;
+    font-size: 1.6rem;
+}
+
+.is-order{
+    margin-bottom: 3.2rem;
+    font-weight: 500;
+    line-height: 1.125;
+    color: #a3a4bd;
+}
+.is-shop{
+    letter-spacing: 1.9px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size:16px;
+    font-weight: 600;
+    color: #7d51ff;
+}

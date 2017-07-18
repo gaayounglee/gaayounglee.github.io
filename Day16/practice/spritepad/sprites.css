@@ -1,0 +1,52 @@
+.Behance, .clock, .Dribbble, .Dribbble, .Facebook, .Instagram, .MasterCard, .PayPal{
+	background: url(sprites.png) no-repeat;
+}
+
+.Behance{
+	background-position: -3px 0;
+	width: 26px;
+	height: 26px;
+}
+
+.clock{
+	background-position: -34px -5px ;
+	width: 17px;
+	height: 17px;
+}
+
+.Dribbble{
+	background-position: -57px 0;
+	width: 26px;
+	height: 26px;
+}
+
+.Dribbble{
+	background-position: -108px -30px ;
+	width: 26px;
+	height: 26px;
+}
+
+.Facebook{
+	background-position: -78px -29px ;
+	width: 26px;
+	height: 26px;
+}
+
+.Instagram{
+	background-position: -46px -30px ;
+	width: 26px;
+	height: 26px;
+}
+
+.MasterCard{
+	background-position: 0 -33px ;
+	width: 39px;
+	height: 23px;
+}
+
+.PayPal{
+	background-position: -93px -11px ;
+	width: 36px;
+	height: 10px;
+}
+
