@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>반응형 웹 디자인 그리드 시스템(RWD Grid System)</title>
+    <link rel="stylesheet" href="css/rwd-grid.css">
+    <style>
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30px;
+            border: 1px solid #eee;
+            color: #fff;
+        }
+        .is-o {background: #000;}
+        .is-o {background: #555;}
+        .is-o {background: #999;}
+
+        </style>
+</head>
+<body>
+   <div class="container">
+       <div class="row">
+           <div class="column is-o box column is-4 is-t-3 is-d-2">m1 t1 d1</div>
+           <div class="column is-o box column is-4 is-t-6 is-d-2">m1 t2 d1</div>
+           <div class="column is-0 box column is-4 is-t-3 is-d-8">m1 t1 d4</div>
+       </div>
+   </div>
+</body>
+</html>
